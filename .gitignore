@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environments
+.venv/
+.env
+
+# Data and Outputs
+data/
+outputs/
+*.log
+
+# Latex notes
+notes/
+
+# Scratch Notebooks
+scratch_notebooks/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
