@@ -1,2 +1,2 @@
-def main() -> None:
-    print("Hello from interactome-hierachy!")
+from . import spectral_clustering
+from . import utils
