@@ -7,7 +7,15 @@ authors = [
     { name = "marlene-grabner", email = "marlene.grabner@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "gseapy>=1.1.13",
+    "matplotlib>=3.10.8",
+    "mygene>=3.2.2",
+    "networkx>=3.6.1",
+    "numpy>=2.4.4",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+]
 
 [project.scripts]
 interactome-hierachy = "interactome_hierachy:main"
@@ -15,3 +23,8 @@ interactome-hierachy = "interactome_hierachy:main"
 [build-system]
 requires = ["uv_build>=0.9.6,<0.10.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
